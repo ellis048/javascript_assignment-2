@@ -1,0 +1,18 @@
+#gallery{
+    justify-content: space-around;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    background-color: rgb(110, 118, 167);
+    margin-top: 50px;
+    height: 500px;
+}
+#gallery img {
+    width: 350px; 
+
+    object-fit: cover;
+    display: flex;
+}
+#centered{
+    text-align: center;
+}

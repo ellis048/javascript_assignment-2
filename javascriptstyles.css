@@ -1,0 +1,16 @@
+/* highlight color for the changed content*/
+.lightblue{
+background-color: lightblue;
+}
+
+.clickimage{
+width: 20px;
+height: auto;
+transition: 0.5 ease;
+}
+
+.enlarge{
+width: 400%;
+border: 3px dotted red;
+}
+
