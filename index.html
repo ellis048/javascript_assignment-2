@@ -9,9 +9,9 @@
 </head>
 
 <body>
-
+<div id="cursor-circle"> </div>
     <header>
-    <h1 id="heading">Welcome to my Page</h1>
+    <h1 id="heading">Welcome to my Page!</h1>
     
         <!-- the first paragraph -->
         <p id="paragraph">The dog is a pet animal. A dog has sharp teeth so that it can eat flesh very easily, it has four legs, two ears, two eyes, a tail, a mouth, and a nose. It is a very clever animal and is very useful in catching thieves. It runs very fast, barks loudly and attacks the strangers. A dog saves the life of the master from danger. One can find dogs everywhere in the world. Dogs are a very faithful animal. It has a sharp mind and a strong sense of hearing smelling the things. It also has many qualities like swimming in the water, jumping from anywhere, good smelling sense.</p>
@@ -24,11 +24,22 @@
         <img src="pictures/the beach.png" class="clickable-image" onclick="toggleImageSize(this)" alt="Image 1">
         <img src="pictures/doggo.png" class="clickable-image" onclick="toggleImageSize(this)" alt="Image 2">
         <img src="pictures/eldenring.png" class="clickable-image" onclick="toggleImageSize(this)" alt="Image 3">
-    </div>
+ </div>
 
+ <div id="age-checker"><form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"oninput="checkName()"><br><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" oninput="checkAge()">
+    <p id="feedback" class="feedback"></p>
+</form></div> 
+    
 
     <div id="output"> </div>
     <script src="script.js"></script>
+
+
 
 </body>
 </html>
